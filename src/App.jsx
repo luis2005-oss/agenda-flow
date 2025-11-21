@@ -15,8 +15,11 @@ import { ProfilePage } from './components/pages/profilePage'
 
 //STYLES
 import './App.css'
+import { useState } from 'react'
 
 function App() {
+  const [modalIsOpen, setModalIsOpen]= useState (false)
+
   const pages =[
     {
       element: DashboardPage,
@@ -56,6 +59,7 @@ function App() {
     <div className='layout'>
       <Navbar/>
       <Header/>
+      {modalIsOpen ? <ModalLogin setModalIsOpen={setModalIsOpen} /> : ''}
       <MyTemplate>
         <Routes>
           {

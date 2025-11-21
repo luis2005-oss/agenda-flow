@@ -2,7 +2,7 @@ import { Bell } from 'lucide-react'
 import styles from './headerUser.module.css'
 
 
-function HeaderUser({ setModalISOpen }) {
+function HeaderUser({ setModalIsOpen }) {
   return (
     <div className={styles.login}>
       <span className={styles.containnerIcon}>
@@ -10,7 +10,7 @@ function HeaderUser({ setModalISOpen }) {
       </span>
       <span className={styles.separator}></span>
       <button
-        onClick={setModalISOpen}
+        onClick={setModalIsOpen}
         className={styles.button}
       >
         Iniciar Sesión
