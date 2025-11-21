@@ -1,6 +1,6 @@
 .logo{
     border-bottom: 2px solid var(--line);
-    height: 16%;
+    height: 11em;
     display: flex;
     flex-direction: column;
     justify-content: center;
