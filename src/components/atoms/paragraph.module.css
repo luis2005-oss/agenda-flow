@@ -1,0 +1,79 @@
+.paragraph {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.7;
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+/* Tamaños */
+.small {
+  font-size: 1.2rem;
+}
+
+.medium {
+  font-size: 1.5rem;
+}
+
+.large {
+  font-size: 1.8rem;
+}
+
+/* Variantes de color */
+.default {
+  color: var(--text-color);
+}
+
+.light {
+  color: var(--bg-color);
+}
+
+.muted {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.highlight {
+  color: var(--main-color);
+  font-weight: 500;
+}
+
+/* Alineación */
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.justify {
+  text-align: justify;
+}
+
+/* Responsivo para móviles */
+@media (max-width: 768px) {
+  .large {
+    font-size: 2rem;
+  }
+  .medium {
+    font-size: 1.8rem;
+  }
+}
+
+/* Responsivo para móviles */
+@media (max-width: 480px) {
+  .small {
+    font-size: 0.8rem;
+  }
+
+  .medium {
+    font-size: 1.6rem;
+  }
+
+  .large {
+    font-size: 1.5rem;
+  }
+}

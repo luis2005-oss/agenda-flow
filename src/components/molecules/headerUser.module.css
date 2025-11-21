@@ -1,0 +1,39 @@
+.login {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  height: 100%;
+}
+
+.containnerIcon {
+  display: flex;
+  padding: .6em;
+  align-items: center;
+  justify-content: center;
+  transition: background .3s, transform .3s;
+  border-radius: 5px;
+}
+
+.containnerIcon:hover {
+  background-color: var(--gray-claro);
+  transform: translateY(-2px);
+}
+
+
+.separator {
+  width: 2px;
+  height: 5em;
+  background-color: var(--line);
+}
+
+.button{
+  padding: .6em 1.4em;
+  background-color: var(--color-blue);
+  color: white;
+  border-radius: 8px;
+  transition: transform .3s, background .3s;
+}
+
+.button:hover{
+  transform: translateY(-2px);
+}

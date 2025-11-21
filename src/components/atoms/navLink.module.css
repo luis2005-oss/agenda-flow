@@ -1,0 +1,26 @@
+.link {
+  color: var(--text2-color);
+    font-family: 'Montserrat';
+  text-decoration: none;
+  padding: 8px 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  transition: 0.3s;
+  font-size: 1.4em;
+  transition: background-color 0.3s ease, color 0.3s ease, transform .4s ease;
+}
+
+.link:hover {
+  transform: translateX(10px);
+  color: #ffffff;
+  background-color: var(--color-blue);
+}
+
+.active {
+  transform: translateX(10px);
+  color: #ffffff;
+  background-color: var(--color-blue);
+  font-weight: 600;
+}

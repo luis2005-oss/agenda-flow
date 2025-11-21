@@ -1,0 +1,22 @@
+.search{
+    width: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.icon{
+    position: absolute;
+    width: 2em;
+    left: 3.5em;
+    top: 2em;
+    color: var(--gray);
+}
+
+.input{
+    width: 100%;
+    border: 1px solid var(--gray);
+    padding: .6em 3.4em ;
+    border-radius: 10px;
+    background-color:var(--gray-claro) ;
+}

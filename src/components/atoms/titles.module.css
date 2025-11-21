@@ -1,0 +1,140 @@
+.title {
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 1.2;
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+/*
+  variantes
+*/
+.default {
+  color: var(--main-color);
+}
+
+.primary {
+  color: var(--main-color);
+  text-shadow: 0 0 10px rgba(var(--barraD-color), 0.3);
+}
+
+.secondary {
+  color: var(--text-color);
+}
+
+/* Alineación */
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+/*Nivel*/
+
+.title:where(h1) {
+  font-size: 3.5rem;
+}
+
+.title:where(h2) {
+  font-size: 3.6rem;
+}
+
+.title:where(h3) {
+  font-size: 2.6rem;
+}
+
+.title:where(h4) {
+  font-size: 1.8rem;
+}
+
+.title:where(h5) {
+  font-size: 1.4rem;
+}
+
+.title:where(h6) {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 1200px) {
+  .title:where(h1) {
+    font-size: 2.8rem;
+  }
+
+  .title:where(h2) {
+    font-size: 3.3rem;
+  }
+
+  .title:where(h3) {
+    font-size: 2.4rem;
+  }
+
+  .title:where(h4) {
+    font-size: 1.6rem;
+  }
+
+  .title:where(h5) {
+    font-size: 1.3rem;
+  }
+
+  .title:where(h6) {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 768px) {
+  .title:where(h1) {
+    font-size: 2.8rem;
+  }
+
+  .title:where(h2) {
+    font-size: 3.8rem;
+  }
+
+  .title:where(h3) {
+    font-size: 2.6rem;
+  }
+
+  .title:where(h4) {
+    font-size: 1.6rem;
+  }
+
+  .title:where(h5) {
+    font-size: 1.3rem;
+  }
+
+  .title:where(h6) {
+    font-size: 1.1rem;
+  }
+}
+
+/* Responsivo para móviles */
+@media (max-width: 480px) {
+  .title:where(h1) {
+    font-size: 2.2rem;
+  }
+
+  .title:where(h2) {
+    font-size: 3.1rem;
+  }
+
+  .title:where(h3) {
+    font-size: 2.2rem;
+  }
+
+  .title:where(h4) {
+    font-size: 1.4rem;
+  }
+
+  .title:where(h5) {
+    font-size: 1.2rem;
+  }
+
+  .title:where(h6) {
+    font-size: 1rem;
+  }
+}

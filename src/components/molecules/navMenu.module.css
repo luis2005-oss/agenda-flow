@@ -1,0 +1,7 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 1.5em;
+    list-style: none;
+}
