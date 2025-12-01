@@ -56,7 +56,7 @@
 
 .title:where(h5) {
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .title:where(h6) {
